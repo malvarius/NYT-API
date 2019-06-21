@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./nyt.js"></script>
+    <script type="text/javascript">
+        const userIn = 'science';
+        const number = '5';
+        const eLink = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q'+userIn+'&api-key=oOwAIpv0BiVnY1bd0jOsvBSI5hBmGyc0'
+
+        $.ajax({
+
+            url: eLink,
+            method: "GET"
+
+        })
+
+
+        .then(function(response) {
+            var answer = response;
+            console.log(answer);
+
+            for (var i=0;i<number;i++){
+                
+            }
+            
+
+            
+        })
+
+
+    </script>
+</body>
+
+</html>

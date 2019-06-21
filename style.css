@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:white;
+}
+
+.main-container{
+    width:70vw;
+    display:flex;
+    margin:auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background:black;
+    color:white;
+    margin-bottom:2rem;
+    font-size:1.1rem;
+    border-radius: 3px;
+
+}
+
+.header h1{
+    font-weight: 100;
+}
+
+.main-box{
+    width:100%;
+    height:55vh;
+    border:black solid 2px;
+    margin-bottom: 5vh;
+    border-radius: 3px;
+}
+
+.search-param-header{
+    display:flex;
+    background:black;
+    color:white;
+    justify-content: flex-start;
+    align-items: center;
+    padding:.4rem;
+    padding-left:1.4rem;
+    
+}
+.form{
+    padding:1.1rem;
+    display:flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom:1.1rem;
+    height: 4vh;
+}
+
+.top-articles-box{
+    height:10vh;
+    border:solid 1px black;
+    width:100%;
+    border-radius:3px;
+}
+
+.top-articles-header{
+    color:white;
+    background:black;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:.4rem;
+    padding-left:1.1rem;
+}
+
+.search-btn{
+    padding:.5rem 1.5rem;
+    background:darkgray;
+    color:white;
+    border-radius:3px;
+}
+
+.clear-results-btn{
+    padding:.5rem 1.5rem;
+    background:darkgray;
+    color:white;
+    border-radius:3px;
+}
+
+h4{
+    font-weight: 100;
+}
+
+button{
+    font-size:.8rem;
+}
